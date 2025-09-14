@@ -1,4 +1,6 @@
-import CourseList from "./components/CourseList/CourseList"
+import CourseList from "./components/CourseList"
+import './App.css'
+
 
 function App(){
   return(

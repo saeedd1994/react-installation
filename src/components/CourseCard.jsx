@@ -1,11 +1,8 @@
-import './CourseList.css'
-
-function CourseList(){
+function CourseCard() {
     return(
-        <div className="course-list">
         <div className="course-item">
           <div className="course-item__image">
-            <img src="../../../public/img1.jpg" alt="Course" />
+            <img src="../../public/img1.jpg" alt="Course" />
           </div>
           <div className="course-item__detail">
             <div className="course-item__body">
@@ -31,8 +28,7 @@ function CourseList(){
             </div>
           </div>
         </div>
-      </div>
     )
 }
 
-export default CourseList
+export default CourseCard
