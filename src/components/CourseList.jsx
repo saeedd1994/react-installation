@@ -29,22 +29,16 @@ const courses = [
         rate: 4,
         tags: ['front', 'edu'],
         start: '2023-03-01T20:46:30.615Z',
-        status: '   upcoming'
+        status: 'upcoming'
     }
 ]
-
 
 function CourseList() {
     return (
         <div className="course-list">
             {
-                courses.map((course)=>{
-                    return (
-                        <CourseCard key = {course.id}/>
-                    )
-                })
+                courses.map((course) => <CourseCard key={course.id} course={course} />)
             }
-
         </div>
     )
 }
