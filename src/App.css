@@ -84,13 +84,23 @@
 }
 
 .badge--secondary {
-  background-color: #f0f0f0;
-  color: #444;
+  background-color: #efd468;
+  color: white;
+}
+
+.badge--danger {
+  background-color: #f89a9a;
+  color: white;
 }
 
 .badge--primary {
   background-color: #4CAF50;
   color: white;
+}
+
+.badge--status {
+  background-color: #dadada;
+  color: #1c1c1c;
 }
 
 .captions {

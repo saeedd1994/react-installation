@@ -7,7 +7,7 @@ const courses = [
         desc: 'this is a ultimate react course',
         imgUrl: '/img1.jpg',
         rate: 4.8,
-        tags: ['front', 'edu'],
+        tags: ['front', 'react'],
         start: '2023-07-01T20:46:30.615Z',
         status: 'completed'
     },
@@ -17,9 +17,9 @@ const courses = [
         desc: 'this is a ultimate angular course',
         imgUrl: '/img2.jpg',
         rate: 4.2,
-        tags: ['front', 'edu'],
+        tags: ['front', 'edu', 'angular'],
         start: '2023-04-01T20:46:30.615Z',
-        status: 'completed'
+        status: 'active'
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const courses = [
         desc: 'this is a ultimate js course',
         imgUrl: '/img3.jpg',
         rate: 4,
-        tags: ['front', 'edu'],
+        tags: ['front', 'edu', 'base', 'js'],
         start: '2023-03-01T20:46:30.615Z',
         status: 'upcoming'
     }
