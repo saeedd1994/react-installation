@@ -32,7 +32,7 @@ function CourseCardFooter({course}) {
 
     return (<div className="course-item__footer">
             <div className="tags">
-                {course.tags.map((tag, index) => (<span className='badge badge--status' key={index}>react</span>))}
+                {course.tags.map((tag, index) => (<span className='badge badge--status' key={index}>{tag}</span>))}
             </div>
             <div className="captions">
                 <div className="date">{startAt}</div>
